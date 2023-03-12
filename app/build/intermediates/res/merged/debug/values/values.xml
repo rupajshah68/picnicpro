@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Picnic Pro</string>
+    <string name="blue"><b>Blue</b></string>
+    <string name="green"><b>Green</b></string>
+    <string name="p1"><b>Player 1</b></string>
+    <string name="p2"><b>Player 2</b></string>
+    <string name="p3"><b>Player 3</b></string>
+    <string name="p4"><b>Player 4</b></string>
+    <string name="pink"><b>Pink</b></string>
+    <string name="red"><b>Red</b></string>
+    <string name="s"><b>Sound</b></string>
+</resources>

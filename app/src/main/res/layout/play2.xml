@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#FFFF00">
+  <ScrollView
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    <HorizontalScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+ <RelativeLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/p1" android:textColor="#000000"></TextView>
+        <TextView android:layout_width="wrap_content" android:layout_below="@id/textView1" android:layout_height="wrap_content" android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000" android:text="Enter Name:"></TextView>
+        <EditText android:maxLength="10" android:textColor="#000000" android:layout_alignBottom="@id/textView2" android:background="@drawable/textviewt" android:width="150dp" android:layout_width="wrap_content" android:layout_toRightOf="@id/textView2" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/editText1" android:inputType="textPersonName">
+            <requestFocus></requestFocus>
+        </EditText>
+    <TextView android:layout_below="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView3" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Select color of marker:" android:textColor="#000000"></TextView>
+        <RadioGroup android:layout_below="@id/textView3"
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pink" android:textColor="#FF00FF"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/green" android:textColor="#00FF00"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/red" android:textColor="#FF0000"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blue" android:textColor="#0000FF"></RadioButton>
+    	</RadioGroup>
+    <TextView android:layout_below="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView4" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/p2" android:textColor="#000000"></TextView>
+        <TextView android:layout_below="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView5" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000" android:text="Enter Name:"></TextView>
+        <EditText android:maxLength="10" android:width="150dp" android:textColor="#000000" android:background="@drawable/textviewt" android:layout_alignBottom="@id/textView5" android:layout_toRightOf="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/editText2" android:inputType="textPersonName">
+        </EditText>
+    <TextView android:layout_below="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView6" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Select color of marker:" android:textColor="#000000"></TextView>
+        <RadioGroup android:layout_below="@id/textView6"
+        android:id="@+id/radioGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pink" android:textColor="#FF00FF"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/green" android:textColor="#00FF00"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/red" android:textColor="#FF0000"></RadioButton>
+        <RadioButton android:button="@drawable/radio" android:paddingLeft="50dp" android:id="@+id/radioButton8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blue" android:textColor="#0000FF"></RadioButton>
+    	</RadioGroup>
+    	<TextView android:layout_below="@id/radioGroup2" android:textColor="#000000" android:text="@string/s" android:id="@+id/textView" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center" android:gravity="center" android:layout_height="wrap_content"></TextView>
+    <ToggleButton android:textColor="#000000" android:background="@drawable/textviewr" android:layout_below="@id/textView" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/toggleButton1" android:gravity="center" android:clickable="true" android:textOff="OFF" android:textOn="ON" android:layout_gravity="center"></ToggleButton>
+    	<Button android:textColor="#000000" android:background="@drawable/textviewt" android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/toggleButton1" android:text="Play" />
+    </RelativeLayout>
+    </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\LAPTOP\StudioProjects\Picnic Pro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="708d41f79163431cb9d82b92375570bbb9e53adc">
+        <dex dex="C:\Users\LAPTOP\StudioProjects\Picnic Pro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_36cc2b6458f902fd6114d51168b078df15a072e0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\LAPTOP\StudioProjects\Picnic Pro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ccc59b6e51d48fe64a8b7f3b6a2267739b1c87a7">
+        <dex dex="C:\Users\LAPTOP\StudioProjects\Picnic Pro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_96cf4a6b06c99d5e57514e5c1e6b248a67b56e05\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/l" android:background="@drawable/background">
+
+    <!--ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter your Name:"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textviewt"
+                        android:textColor="#000000" android:maxLength="13"
+                        android:width="150sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select color of your marker:"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView3"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/pink"
+                        android:textColor="#FF00FF" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/green"
+                        android:textColor="#00FF00" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/red"
+                        android:textColor="#FF0000" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/blue"
+                        android:textColor="#0000FF" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select color of computer&apos;s marker:"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/pink"
+                        android:textColor="#FF00FF" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/green"
+                        android:textColor="#00FF00" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/red"
+                        android:textColor="#FF0000" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio"
+                        android:paddingLeft="50sp"
+                        android:text="@string/blue"
+                        android:textColor="#0000FF" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textviewr"
+                    android:checked="true"
+                    android:clickable="true"
+                    android:textColor="#000000"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+
+                <Button
+                    android:id="@id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textviewt"
+                    android:text="Play"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView-->
+
+</LinearLayout>
